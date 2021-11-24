@@ -1,0 +1,106 @@
+/* Write your CSS here */
+.latest-match-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+}
+.latest-match-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 25px;
+  font-weight: bold;
+  align-self: flex-start;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-heading {
+    font-size: 40px;
+  }
+}
+
+.latest-match-card {
+  background-color: #0f172a;
+  border-radius: 10px;
+  border-width: 0px;
+  padding: 20px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+  }
+}
+.latest-match-details-logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.latest-match-team-name {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 24px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-team-name {
+    font-size: 30px;
+  }
+}
+.latest-match-date {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 17px;
+  font-weight: bold;
+}
+.match-details {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 14px;
+}
+.latest-match-team-logo {
+  width: 120px;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-team-logo {
+    width: 160px;
+    margin-left: 20px;
+  }
+}
+.separator {
+  display: flex;
+}
+@media screen and (min-width: 768px) {
+  .separator {
+    display: none;
+  }
+}
+.latest-match-details-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.latest-match-details-label {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-details-label {
+    font-size: 18px;
+  }
+}
+.latest-match-details-value {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Bree Serif';
+}
+@media screen and (min-width: 768px) {
+  .latest-match-details-value {
+    font-size: 20px;
+  }
+}
